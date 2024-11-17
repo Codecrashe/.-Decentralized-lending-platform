@@ -1,0 +1,17 @@
+[package]
+name = "Decentralized_lending_platform."
+
+version = "1.0.0"
+authors = []
+
+[addresses]
+ Decentralizedlendingplatform = '0x45bb9221e6277614116bc6c08598a6960d88be74ee5a97f788c39b9d2d60d524'
+    
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
